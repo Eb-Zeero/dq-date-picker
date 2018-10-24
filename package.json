@@ -1,0 +1,53 @@
+{
+  "name": "dq-date-picker",
+  "version": "0.1.0",
+  "description": "a date picker for SALT data quality",
+  "module": "dist/esm/index.js",
+  "main": "dist/index.js",
+  "types": "dist/types/components.d.ts",
+  "collection": "dist/collection/collection-manifest.json",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "stencil build",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watchAll",
+    "lint": "eslint 'src/**'",
+    "lint-fix": "eslint --fix 'src/**'",
+    "tslint": "tslint 'src/**' -e \"**/**.html\"  -e \"**/**.css\" ",
+    "tslint-fix": "tslint --fix 'src/**' -e \"**/**.html\"  -e \"**/**.css\"",
+    "docs": "mkdocs build"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.4.1",
+    "bulma": "^0.7.2",
+    "moment": "^2.22.2"
+  },
+  "author": "nhlavutelo",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Eb-Zeero/dq-date-picker"
+  },
+  "devDependencies": {
+    "@stencil/core": "^0.14.2",
+    "@types/jest": "23.3.7",
+    "@types/puppeteer": "1.9.0",
+    "eslint": "^5.7.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jest": "^21.26.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "jest": "23.6.0",
+    "jest-cli": "23.6.0",
+    "puppeteer": "1.8.0",
+    "regenerator-runtime": "^0.12.1",
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.3"
+  }
+}

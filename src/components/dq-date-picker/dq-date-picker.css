@@ -1,0 +1,19 @@
+@import '../../../node_modules/bulma/css/bulma.css';
+@import '../../../node_modules/@fortawesome/fontawesome-free/css/all.css';
+
+.form {
+    font-size: 30px;
+}
+
+.input {
+    max-width: 15%;
+    margin-top: 1%;
+    margin-right: 2%;
+}
+.button {
+    margin-top: 1%;
+}
+
+.icon {
+    font-size: 12px;
+}
